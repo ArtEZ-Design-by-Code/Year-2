@@ -1,0 +1,14 @@
+{
+  "name": "node_start",
+  "version": "1.0.0",
+  "description": "My very first node project!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SuperBram",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.17.1"
+  }
+}
