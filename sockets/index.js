@@ -20,7 +20,8 @@ function newSocketConnection(socket) {
 
 	function cursorMoved(coordinate) {
 		cursors[socket.id] = coordinate;
-		console.log(cursors);
+
+		io.emit('cursor-object-changed', cursors);
 	}
 
 	socket.on('disconnect', socketDisconnected);
